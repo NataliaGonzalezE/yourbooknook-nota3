@@ -1,0 +1,59 @@
+
+[
+    {
+    "imagen": "/assets/img/pro-uno.png",
+    "titulo": "Robotime",
+    "descripcion": "Separador Sujeta Libros Garden House Armable",
+    "categoria": "jardin",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-dos.png",
+    "titulo": "Tonecheer",
+    "descripcion": "Booknook Interstellar Sepador de Libros",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-tres.png",
+    "titulo": "Robotime",
+    "descripcion": "Separador Libros Time Travel Armable Book Nook",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-cuatro.png",
+    "titulo": "Robotime",
+    "descripcion": "Separador Libros Sakura Densya Armable Book Nook",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-cinco.png",
+    "titulo": "Tonecheer",
+    "descripcion": "Alicia Pais de la Maravillas Sepador de Libros Tonecheer",
+    "categoria": "jardin",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-seis.png",
+    "titulo": "Robotime",
+    "descripcion": "Separador Libros Sunshine Town Armable Book Nook",
+    "precio": "$30.900"
+    },
+    {
+    "imagen":"/assets/img/pro-siete.png",
+    "titulo": "Tonecheer",
+    "descripcion": "Booknook Vincent van Gogh Sepador de Libros",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-ocho.png",
+    "titulo": "Tonecheer",
+    "descripcion": "Booknook Travel Wind UP Sepador de Libros",
+    "precio": "$30.900"
+    },
+    {
+    "imagen": "/assets/img/pro-nueve.png",
+    "titulo": "Robotime",
+    "descripcion": "Book Nook Bookstore Librería Shakespeare",
+    "precio": "$30.900"
+    }
+    ]

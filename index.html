@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourBookNook</title>
+    <!--Fuente cinzel-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <!--Fuente exo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap style-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Css style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-logo" href="#">YourBookNook</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-center ms-auto gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="assets/pages/booknooks.html">Booknooks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Sección banner-->
+        <section class="seccion-banner d-flex flex-column justify-content-center align-items-center">
+            <div class="texto-banner text-center text-light">
+                <h1>Descubre la <span>Magia</span> Entre los Libros</h1>
+                <p>Explora, Inspírate y Crea con Nuestros Exclusivos Booknooks</p>
+                <!--Toast-->
+                <div class="p-5 d-flex justify-content-center align-items-center">
+
+                    <button id="botonToast" class="btn btn-outline-warning">Descubre más</button>
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <!--<img src="..." class="rounded me-2" alt="...">-->
+                                <strong class="me-auto">YourBookNook</strong>
+                                <small>Hace 1 segundo</small>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body text-dark">
+                                Página en construcción :D!.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Sección uno-->
+        <section class="seccion-uno">
+            <div class="container text-center">
+                <h2 class="titulo-seccion-uno text-center text-light">Conoce mas sobre los Booknooks</h2>
+                <!--Modal-->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Saber más
+                </button>
+
+                <!-- Modal body -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">YourBookNook</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lo sentimos, página no encontrada. Puede desplazarse hacia abajo y leer el contenido
+                                :D!.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex flex-column justify-content-center align-items-center con-seccion-uno">
+                    <div class="card flex-row mt-5 p-3" style="max-width: 36rem;" data-aos="fade-right">
+                        <img src="assets/img/booknook-uno.png" class="card-img img-fluid" alt="booknook"
+                            style="width: 50%; height: auto;">
+                        <div class="card-body">
+                            <h3 class="card-title">¿Qué es un <span>Booknook?</span></h3>
+                            <p class="card-text">Un booknook <span>es una escena en miniatura que se coloca entre
+                                    libros</span> en
+                                una estantería, creando un pequeño mundo visualmente atractivo y lleno de detalles.
+                                Estas
+                                miniaturas pueden representar cualquier cosa, desde <span>paisajes fantásticos y
+                                    callejones de
+                                    ciudades hasta escenas de cuentos clásicos o mundos de ciencia ficción.</span></p>
+                        </div>
+                    </div>
+                    <div class="card flex-row mt-5" style="width: 36rem;" data-aos="fade-left">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Un Poco de Historia</h3>
+                            <p class="card-text">Los booknooks comenzaron a ganar popularidad a principios de los 2000,
+                                inspirados por la pasión por las miniaturas y la cultura DIY (hazlo tú mismo). Desde
+                                entonces, han evolucionado en complejidad y diversidad, convirtiéndose en un fenómeno
+                                entre
+                                los aficionados al modelismo y los amantes de la literatura.</p>
+                        </div>
+                        <img src="assets/img/booknook-dos.png" class="card-img img-fluid" alt="booknook"
+                            style="width: 50%; height: auto;">
+                    </div>
+                    <div class="card flex-row mt-5 p-3" style="width: 36rem;" data-aos="fade-right">
+                        <img src="assets/img/booknook-tres.png" class="card-img img-fluid" alt="booknook"
+                            style="width: 50%;">
+                        <div class="card-body">
+                            <h3 class="card-title">¿Por qué son tan populares?</h3>
+                            <p class="card-text">Añaden un toque de magia y creatividad a tu estantería.
+                                Son perfectos para los amantes de los libros y las miniaturas.
+                                Permiten personalizar y decorar tus espacios de manera única.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sección dos-->
+        <section class="seccion-dos">
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+                <h2 class="titulo-seccion-dos text-center">Nuestros BookNooks Destacados</h2>
+                <label for="colorTexto">Selecciona el color para el título:</label>
+                <select class="colorselector me-5 mb-5" name="colorTexto" id="colorTexto">
+                    <option selected value="default">Color...</option>
+                    <option value="red">Rojo</option>
+                    <option value="blue">Azul</option>
+                    <option value="green">Verde</option>
+                    <option value="yellow">Amarillo</option>
+                    <option value="black">Negro</option>
+                    <option value="purple">Violeta</option>
+                    <option value="orange">Naranjo</option>
+                    <option value="brown">Cafe</option>
+                </select>
+                <!--<button onClick="cambiarColor()">Cambiar color</button>-->
+                <div class="row">
+                    <div class="card p-4 m-4" style="width: 20rem;">
+                        <img src="assets/img/pro-uno.png" class="card-img-top img-fluid" alt="producto-uno">
+                        <div class="card-body">
+                            <h5 class="card-title-pro">Robotime</h5>
+                            <p class="card-text-pro">Separador Sujeta Libros Garden House Armable</p>
+                            <p class="card-text-pre">$30.900</p>
+                            <a href="#" class="btn btn-outline-secondary" onclick="ventana()">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="card p-4 m-4" style="width: 20rem;">
+                        <img src="assets/img/pro-dos.png" class="card-img-top img-fluid" alt="producto-dos">
+                        <div class="card-body">
+                            <h5 class="card-title-pro">Tonecheer</h5>
+                            <p class="card-text-pro">Booknook Interstellar Sepador de Libros </p>
+                            <p class="card-text-pre">$30.900</p>
+                            <a href="#" class="btn btn-outline-secondary">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="card p-4 m-4" style="width: 20rem;">
+                        <img src="assets/img/pro-tres.png" class="card-img-top img-fluid" alt="producto-tres">
+                        <div class="card-body">
+                            <h5 class="card-title-pro">Robotime</h5>
+                            <p class="card-text-pro">Separador Libros Time Travel Armable Book Nook</p>
+                            <p class="card-text-pre">$30.900</p>
+                            <a href="#" class="btn btn-outline-secondary">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sección tres-->
+        <section class="seccion-tres">
+            <div class="container d-flex flex-column justify-content-center align-items-center pt-5">
+                <h2 class="titulo-seccion-tres">Categorías</h2>
+                <div class="row d-flex justify-content-center align-items-center text-center">
+                    <div class="col-md-3">
+                        <a href="#"><img data-aos="fade-up" src="assets/img/jardin.png" class="img-fluid"
+                                alt="categoria-jardin" data-aos-anchor-placement="top-bottom"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><img data-aos="fade-up" src="assets/img/arte.png" class="img-fluid"
+                                alt="categoria-arte" data-aos-anchor-placement="top-bottom"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><img data-aos="fade-up" src="assets/img/espacio.png" class="img-fluid"
+                                alt="categoria-espacio" data-aos-anchor-placement="top-bottom"></a>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center text-center">
+                    <div class="col-md-3">
+                        <a href="#"><img data-aos="fade-up" src="assets/img/cyberpunk.png" class="img-fluid"
+                                alt="categoria-cyberpunk" data-aos-anchor-placement="top-bottom"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><img data-aos="fade-up" src="assets/img/cuentos.png" class="img-fluid"
+                                alt="categoria-cuentos" data-aos-anchor-placement="top-bottom"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#"><img data-aos="fade-up" src="assets/img/misterio.png" class="img-fluid"
+                                alt="categoria-misterio" data-aos-anchor-placement="top-bottom"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sección cuatro-->
+        <section class="seccion-cuatro">
+            <div class="container d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
+                <h2 class="titulo-seccion-cuatro">Colecciones</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <a href="assets/img/img-hp.png" data-fancybox="coleccion" data-caption="Colección Harry Potter">
+                            <img src="assets/img/img-hp.png" class="w-100 mb-4" data-aos="flip-down">
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="assets/img/img-sher.png" data-fancybox="coleccion"
+                            data-caption="Colección Sherlock Holmes">
+                            <img src="assets/img/img-sher.png" class="w-100 mb-4" data-aos="flip-down">
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="assets/img/img-van.png" data-fancybox="coleccion" data-caption="Colección Van Gogh">
+                            <img src="assets/img/img-van.png" class="w-100 mb-4" data-aos="flip-down">
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="assets/img/img-maze.png" data-fancybox="coleccion"
+                            data-caption="Colección Maze Runner">
+                            <img src="assets/img/img-maze.png" class="w-100 mb-4" data-aos="flip-down">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-body row text-center text-lg-start align-items-center">
+                <div class="col-md-4 col-sm-6">
+                    <a href="#" class="footer-titulo">YourBookNook</a>
+                    <a href="#">
+                        <p>Política de privacidad</p>
+                    </a>
+                    <a href="#">
+                        <p>Términos y condiciones</p>
+                    </a>
+                    <a href="#">
+                        <p>Soporte</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 text-center my-5 my-md-0">
+                    <a href="#">
+                        <p>Inicio</p>
+                    </a>
+                    <a href="#">
+                        <p>Productos</p>
+                    </a>
+                    <a href="#">
+                        <p>Contacto</p>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 text-md-end">
+                    <a href="#">
+                        <p>+56934738504</p>
+                    </a>
+                    <a href="#">
+                        <p>soportebooknook@gmail.com</p>
+                    </a>
+                    <a href="#">
+                        <p>Chorrillos, Viña del Mar, Chile</p>
+                    </a>
+                </div>
+                <div class="desarrollado contenedor-respuesta text-center text-light pt-3 mt-5">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Jquery Js-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--Fancybox-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--Mi script Js-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
